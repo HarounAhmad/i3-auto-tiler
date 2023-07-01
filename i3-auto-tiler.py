@@ -1,7 +1,7 @@
 import i3ipc
 
 
-def on_window_new(i3):
+def on_window_new(i3, event):
     tree = i3.get_tree()
     focused = tree.find_focused()
 

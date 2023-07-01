@@ -24,7 +24,7 @@
    ```
 3. add the following line to the top of `i3-auto-tiler.py`:
    ```
-    #!/usr/bin/env python
+    #!/usr/bin/env python3
     ```
 4. change the name of the script to `i3-auto-tiler`:
    ```shell
