@@ -1,7 +1,7 @@
 # i3-auto-tiler
 
 ## Description
-`i3-auto-tiler.py` is a Python script that automatically adjusts the layout of windows in the i3 window manager based on their dimensions.
+`i3-auto-tiler.py` is a Python script that automatically adjusts the layout of new windows in the i3 window manager based on their dimensions.
 
 ## Prerequisites
 - Python 3.x
