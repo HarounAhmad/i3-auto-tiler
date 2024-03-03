@@ -46,6 +46,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./dist/your_script  # Specify the path to your generated executable
+        asset_path: ./dist/i3-auto-tiler  # Specify the path to your generated executable
         asset_name: i3-auto-tiler  # Specify the name of your release asset
         asset_content_type: application/octet-stream
