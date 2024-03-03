@@ -23,7 +23,7 @@ jobs:
 
     - name: Build executable
       run:
-        pyinstaller i3-auto-tiler.py --onefile && ls
+        pyinstaller i3-auto-tiler.py --onefile && ls && ls build && ls dist
 
       
     - name: Create release
