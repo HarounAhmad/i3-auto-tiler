@@ -22,7 +22,9 @@ jobs:
       run: pip install pyinstaller && pip install i3ipc
 
     - name: Build executable
-      run: pyinstaller i3-auto-tiler.py
+      run:
+        pyinstaller i3-auto-tiler.py --onefile && ls
+
       
     - name: Create release
       id: create_release
