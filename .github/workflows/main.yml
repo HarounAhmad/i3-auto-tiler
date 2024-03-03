@@ -19,8 +19,8 @@ jobs:
         python-version: '3.11' 
         
     - name: Install dependencies
-      run: pip install pyinstaller
-      
+      run: pip install pyinstaller && pip install i3ipc
+
     - name: Build executable
       run: pyinstaller i3-auto-tiler.py
       
